@@ -13,11 +13,16 @@
    ========================================================================== */
 
    html {
-    color: red;
+    color:grey;
     font-size: 1em;
     line-height: 1.4;
-    border: 1px solid red;
+    border: 1px solid darkolivegreen;
+    margin: 0 auto;
+    width: 90%;
+    padding: 3%;
 }
+
+
 
 /*
  * Remove text-shadow in selection highlight:
