@@ -103,157 +103,129 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/********* GENERAL STYLES ***********/
-html{
+/* -------------------- Base Header - Footer Styles -------------------- */
 
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  border: 1px solid grey;
 }
 
-body{
-
+header .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: yellowgreen;
 }
 
-h1, h2, h3, h4 {
-
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: grey;
 }
 
-h1 {
-
+header nav ul {
+  display: flex;
+  justify-content: space-around;
 }
 
-h3{
-
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-p{
-    
-}
-
-   /********* HEADER STYLES **********/
-header {
-
-}
-
-.wrapper {
-
-}
-
-a {
-
-}
-
-.header-divider {
-
-}
-
-nav {
-
-}
-
-nav ul {
-
-}
-
-nav ul li {
-
+footer .social-icons p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
-/************** MAIN ****************/
+/* -------------------- Mobile Styles - Homepage -------------------- */
 
-.main-content {
-
-}
-
-.content-wrapper {
-
-}
-
-/*********** HOME PAGE MAIN ***********/
+/* Hero Area */
 
 .hero {
-
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
-.headline {
-
-}
+/* Aside */
 
 aside {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
-.news-signup {
-
-}
-
-.form {
-
-}
+/* Features */
 
 .features {
-
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
-article {
-
+.features .features-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
-.fontawesome-icon {
+/* Reviews */
 
+.reviews {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
-.features-item-description {
+/* ==========================================================================
+   About Page
+   ========================================================================== */
 
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
-.prior-retreats {
-
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
-/************* ABOUT MAIN ************/
-.mission-content {
+/* ==========================================================================
+   FAQ Page
+   ========================================================================== */
 
+.faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
-.map {
-
+.faq-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
-.about-contact {
-
-}
-
-/************* FAQ MAIN **************/
-
-.FAQ {
-
-}
-
-
-/************ FOOTER ************/
-footer {
-
-}
-
-.footer-wrapper {
-
-}
-
-.footer-content {
-
-}
-
-.contact {
-
-}
-
-.social {
-
-}
-
-.social-icons {
-
-}
 
 
 
