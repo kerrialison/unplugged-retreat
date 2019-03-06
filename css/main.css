@@ -103,6 +103,32 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /*********  BASE STYLES ***********/
+html{
+
+}
+
+body{
+  width: 360px;
+
+}
+
+h1, h2, h3, h4 {
+
+}
+
+h1 {
+
+}
+
+h3{
+
+}
+
+p{
+    
+}
+
 /* -------------------- Base Header - Footer Styles -------------------- */
 
 header,
@@ -114,13 +140,23 @@ footer {
   border: 1px solid grey;
 }
 
+header {
+  width: 98%;
+  margin: 0 auto;
+  padding: 15px;
+}
+
 header .wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
   background-color: yellowgreen;
+  width: 60%;
+  margin: 0;
 }
+
+
 
 header nav {
   display: flex;
@@ -128,13 +164,23 @@ header nav {
   align-items: center;
   flex-flow: row wrap;
   background-color: grey;
+  width: 100%;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
+  width:  100%;
 }
 
+footer {
+  text-align: center; /* ----- best place to put this? inside each footer & copyright div? */
+}
+
+.footer-wrapper{
+  width: 55%;
+  text-align: center;
+}
 footer .social-icons {
   display: flex;
   justify-content: space-around;
@@ -145,6 +191,11 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  
+}
+
+footer p {
+  margin: 0;
 }
 
 
@@ -175,6 +226,14 @@ aside {
   flex-flow: row wrap;
 }
 
+.features article {
+  width: 100%;
+}
+
+.features p {
+  margin: 0;
+}
+
 .features .features-items {
   display: flex;
   justify-content: center;
@@ -188,6 +247,11 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+}
+
+.reviews h3 {
+  width: 100%;
+  justify-content: flex-start;
 }
 
 /* ==========================================================================
