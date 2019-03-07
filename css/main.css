@@ -143,7 +143,7 @@ footer {
 header {
   width: 98%;
   margin: 0 auto;
-  padding: 15px;
+  padding: 15px 0 15px 0;
 }
 
 header .wrapper {
@@ -290,21 +290,6 @@ aside {
   flex-flow: row wrap;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -392,9 +377,81 @@ aside {
    Modify as content requires.
    ========================================================================== */
 
-   @media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-}
+/*Tablet styles here*/
+   @media screen and (min-width: 768px) {
+    body {
+      width: 95%;
+    }
+
+    header {
+      justify-content: flex-start;
+      
+    }
+    
+    header .wrapper {
+      width:  100%;
+    }
+
+    .logo{
+      width: 300px;
+      display: flex;
+      justify-content: flex-start;
+      align-content: center;
+    }
+
+    header nav {
+      width: 40%;
+    }
+
+    header nav ul {
+      justify-content: flex-end;
+    }
+
+    aside .content-wrapper {
+      display: flex; 
+      justify-content: flex-start;
+      flex-flow: row;
+    }
+
+    .newsletter-info {
+      width: 49%;
+      display: flex;
+      flex-flow: column;
+    }
+
+    .newsletter-form{
+      width: 49%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: column;
+      padding-left: 40px;
+    }
+
+    .features article {
+      display: flex;
+      justify-content: flex-start;
+      flex-flow: wrap;
+    }
+
+    .reviews {
+      display: flex;
+      justify-content: flex-start;
+    }
+
+    footer-wrapper {
+      justify-content: flex-start;
+    }
+    
+    }
+
+    /*Desktop styles here*/ 
+    @media screen and (min-width: 1200px) {
+    
+    
+    
+    }
+
 
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
