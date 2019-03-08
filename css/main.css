@@ -14,7 +14,7 @@
 
    html {
     color:grey;
-    font-size: 1em;
+    font-size: 16px;
     line-height: 1.4;
     border: 1px solid darkolivegreen;
     margin: 0 auto;
@@ -105,7 +105,7 @@ textarea {
 
    /*********  BASE STYLES ***********/
 html{
-
+  
 }
 
 body{
@@ -114,10 +114,11 @@ body{
 }
 
 h1, h2, h3, h4 {
-
+  
 }
 
 h1 {
+  font-size: 1em;
 
 }
 
@@ -383,6 +384,10 @@ aside {
       width: 95%;
     }
 
+    h1 {
+      font-size: 2em; 
+    }
+
     header {
       justify-content: flex-start;
       
@@ -407,7 +412,19 @@ aside {
       justify-content: flex-end;
     }
 
-    aside .content-wrapper {
+    .headline-wrapper {
+      width: 50%;
+      padding: 0 0 0 65px;
+      display: flex;
+      justify-content: flex-start;
+      flex-flow: wrap;
+    }
+
+    aside {
+      padding: 0 0 0 65px;
+    }
+
+    .newsletter-wrapper {
       display: flex; 
       justify-content: flex-start;
       flex-flow: row;
@@ -428,15 +445,27 @@ aside {
       padding-left: 40px;
     }
 
-    .features article {
-      display: flex;
+    .features {
+      padding: 0 0 0 65px;
       justify-content: flex-start;
-      flex-flow: wrap;
+    }
+
+    .article-wrapper-1 {
+      width: 27%;
+      padding: 0 120px 0 10px;
+      text-align: center;
+    }
+
+    .article-wrapper-2 {
+      width: 27%;
+      padding: 0 120px 0 10px;
+      text-align: center;
     }
 
     .reviews {
       display: flex;
       justify-content: flex-start;
+      padding: 0 0 0 65px;
     }
 
     footer-wrapper {
