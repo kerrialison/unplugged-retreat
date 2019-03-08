@@ -108,8 +108,8 @@ html{
   
 }
 
-body{
-  width: 95%;
+.content-wrapper {
+  max-width: 400px;
 
 }
 
@@ -118,7 +118,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 1em;
+  font-size: 1.875em;
 
 }
 
@@ -147,7 +147,7 @@ header {
   padding: 15px 0 15px 0;
 }
 
-header .wrapper {
+.header-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -380,9 +380,16 @@ aside {
 
 /*Tablet styles here*/
    @media screen and (min-width: 768px) {
+    .content-wrapper {
+      max-width: 640px;
+    }
 
     h1 {
-      font-size: 2em; 
+      font-size: 3em; 
+    }
+
+    h3 { 
+      font-size: 1.5em;
     }
 
     header {
@@ -390,7 +397,7 @@ aside {
       
     }
     
-    header .wrapper {
+    .header-wrapper {
       width:  100%;
     }
 
@@ -409,8 +416,11 @@ aside {
       justify-content: flex-end;
     }
 
+    .header-divider {
+      display: none;
+    }
     .headline-wrapper {
-      width: 50%;
+      width: 75%;
       padding: 0 0 0 65px;
       display: flex;
       justify-content: flex-start;
@@ -418,7 +428,7 @@ aside {
     }
 
     aside {
-      padding: 0 0 0 65px;
+      padding: 50px 0 0 65px;
     }
 
     .newsletter-wrapper {
