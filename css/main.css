@@ -109,7 +109,7 @@ html{
 }
 
 body{
-  width: 360px;
+  width: 95%;
 
 }
 
@@ -380,9 +380,6 @@ aside {
 
 /*Tablet styles here*/
    @media screen and (min-width: 768px) {
-    body {
-      width: 95%;
-    }
 
     h1 {
       font-size: 2em; 
@@ -446,8 +443,12 @@ aside {
     }
 
     .features {
-      padding: 0 0 0 65px;
+      padding: 90px 0 0 65px;
       justify-content: flex-start;
+    }
+
+    article {
+      padding: 40px 0 0 0;
     }
 
     .article-wrapper-1 {
@@ -487,10 +488,42 @@ aside {
     
     }
 
-    footer-wrapper {
-      justify-content: flex-start;
+    .footer-wrapper {
+      display: flex;
+      flex-direction: row;
+      align-content: flex-start;
+      justify-content: center;
+      width: 100%;
+      padding:  90px 60px;
+    }
+
+   /* .footer-content {
+      display: flex;
+      flex-direction: row;
+      align-content: flex-start;
+      justify-content: center;
+      width: 100%;
+    } */
+    .contact {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      width: 49%;
+    }
+
+    .social {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      width: 49%;
     }
     
+    .copyright {
+      display: flex;
+      justify-content: center;
+      width: 100%;;
+      padding: 0 0 15px 0;
+    }
     }
 
     /*Desktop styles here*/ 
