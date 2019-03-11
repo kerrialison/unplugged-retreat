@@ -106,6 +106,8 @@ textarea {
    /*********  BASE STYLES ***********/
 html{
   
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
 }
 
 .content-wrapper {
@@ -127,6 +129,7 @@ h3{
 }
 
 p{
+  font-family: 'Open Sans', sans-serif;
     
 }
 
@@ -172,6 +175,7 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width:  100%;
+  font-size: 1.125em;
 }
 
 footer {
@@ -197,6 +201,7 @@ footer .social-icons p {
 
 footer p {
   margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 
@@ -219,6 +224,19 @@ aside {
   flex-flow: row wrap;
 }
 
+.newsletter-wrapper {
+  padding: 0 0 40px 0;
+}
+
+.newsletter-info {
+ 
+}
+
+.form {
+  text-align: center;
+}
+
+
 /* Features */
 
 .features {
@@ -228,7 +246,9 @@ aside {
 }
 
 .features article {
-  width: 100%;
+  padding: 45px 20% 0 20%;
+  text-align: center;
+  font-size: 0.875em;
 }
 
 .features p {
@@ -382,10 +402,15 @@ aside {
    @media screen and (min-width: 768px) {
     .content-wrapper {
       max-width: 640px;
+      padding: 50px 20px 100px 65px;
     }
 
     h1 {
-      font-size: 3em; 
+      font-size: 2.75em; 
+    }
+
+    h2 {
+      font-size: 2em;
     }
 
     h3 { 
@@ -414,13 +439,14 @@ aside {
 
     header nav ul {
       justify-content: flex-end;
+     
     }
 
     .header-divider {
       display: none;
     }
     .headline-wrapper {
-      width: 75%;
+      width: 100%;
       padding: 0 0 0 65px;
       display: flex;
       justify-content: flex-start;
@@ -514,20 +540,11 @@ aside {
       justify-content: center;
       width: 100%;
     } */
-    .contact {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      width: 49%;
-    }
-
+    .contact, 
     .social {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
       width: 49%;
     }
-    
+  
     .copyright {
       display: flex;
       justify-content: center;
