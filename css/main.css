@@ -383,6 +383,9 @@ html {
   
   @media screen and (min-width: 1000px) {
   .content-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: auto;
   max-width:95%;
   }
 
@@ -439,15 +442,21 @@ html {
 /* ==========================================================================
    FAQ Page
    ========================================================================== */
-    .faq h2 {
-        width: 100%;
+   .faq {
+    display:flex;
+    align-items:flex-start;
+    flex-flow:row wrap;
+    padding: 80px 0 50px 100px;
     }
- 
-    .faq-content {
-        flex-basis: 860px;
+
+    .faq h3, .faq p {
+      width: 50%;
     }
- 
-}
+
+    .faq-items {
+      width: 50%;
+    }
+ }
   
   @media print{
   *,:before,:after {
