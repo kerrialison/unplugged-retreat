@@ -67,7 +67,6 @@ html {
   justify-content:center;
   align-items:center;
   flex-flow:row wrap;
-  border:1px solid grey;
   }
   
   header {
@@ -81,7 +80,6 @@ html {
   justify-content:center;
   align-items:center;
   flex-flow:row wrap;
-  background-color:#9ACD32;
   width:60%;
   margin:0;
   }
@@ -91,7 +89,6 @@ html {
   justify-content:space-around;
   align-items:center;
   flex-flow:row wrap;
-  background-color:grey;
   width:100%;
   }
   
@@ -426,9 +423,12 @@ html {
 /* ==========================================================================
    About Page
    ========================================================================== */
+   .mission {
+     padding: 100px 120px 50px;
+   }
     .mission h2,
     .contact-section .content-wrapper h2 {
-        width: 100%;
+        width: 70%;
     }
  
     .contact-section .content-wrapper h2 {
