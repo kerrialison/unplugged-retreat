@@ -70,7 +70,6 @@ html {
   }
   
   header {
-  width:%;
   margin:0 auto;
   padding:15px 0;
   }
@@ -97,6 +96,10 @@ html {
   justify-content:space-around;
   width:100%;
   font-size:1.125em;
+  }
+
+  header nav ul li {
+    list-style: none;
   }
   
   .footer-wrapper {
