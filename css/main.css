@@ -311,12 +311,6 @@ html {
   width: 100%;
   }
   
-  .article-wrapper {
-      display: flex;
-      width: 100%;
-      flex-flow: wrap;
-  }
-  
   .features-content article {
       width: 50%;
       text-align:center;
@@ -379,11 +373,7 @@ html {
   flex-flow:row wrap;
   width:50%;
   }
-  
-  .article-wrapper1,.article-wrapper2 {
-  width:50%;
-  text-align:center;
-  } 
+
   }
   
   @media screen and (min-width: 1000px) {
