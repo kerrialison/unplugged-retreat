@@ -70,7 +70,6 @@ html {
   }
   
   header {
-  width:%;
   margin:0 auto;
   padding:15px 0;
   }
@@ -97,6 +96,10 @@ html {
   justify-content:space-around;
   width:100%;
   font-size:1.125em;
+  }
+
+  header nav ul li {
+    list-style: none;
   }
   
   .footer-wrapper {
@@ -128,11 +131,19 @@ html {
   aside .content-wrapper {
   padding:0 0 40px;
   }
+
+  .features-content {
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
   
-  .features article {
+  .features-content article {
   text-align:center;
   font-size:.875em;
-  padding:45px 20% 0;
+  width: 30%;
+  padding: 0 35%;
   }
   
   /* Features */
@@ -383,10 +394,7 @@ html {
   
   @media screen and (min-width: 1000px) {
   .content-wrapper {
-  display: flex;
-  justify-content: center;
-  margin: auto;
-  max-width:95%;
+  max-width:960px;
   }
 
 /* Hero */
@@ -509,18 +517,4 @@ html {
   page-break-after:avoid;
   }
   }
-
-    © 2019 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Status
-    Help
-
-    Contact GitHub
-    Pricing
-    API
-    Training
-    Blog
-    About
 
