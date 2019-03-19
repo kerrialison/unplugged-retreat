@@ -50,6 +50,7 @@ html {
      /*********  BASE STYLES ***********/
   .content-wrapper {
   max-width:400px;
+  margin: 0 auto;
   }
   
   h1 {
@@ -151,11 +152,18 @@ html {
   .features p {
   margin:0;
   }
-  
-  .reviews h3 {
+
+  .reviews h2 {
   width:100%;
   justify-content:flex-start;
   }
+
+  .reviews-items {
+    width:100%;
+    height:auto;
+    margin:0;
+    padding: 0 5%;
+}
 
   img {
     width: 100%;
@@ -223,6 +231,8 @@ html {
   }
   
   @media screen and (min-width: 768px) {
+  /* ---------- BASE STYLES -------- */
+  
   .content-wrapper {
   max-width:640px;
   
@@ -274,9 +284,17 @@ html {
   flex-flow:wrap;
   padding:0 0 0 65px;
   }
+
+  .hero {
+    padding: 0 9%;
+  }
+
+  .form {
+    padding: 60px 0;
+  }
   
   aside {
-  padding:0;
+  padding:0 9%;
   }
   
   aside .content-wrapper {
@@ -310,25 +328,27 @@ html {
   align-items: flex-start;
   width: 100%;
   }
+
+  .features-content h2 {
+    padding: 0 12%;
+  }
   
   .features-content article {
     width: 50%;
     text-align:center;
     flex: 1 1 200px;
-    padding: 0 7% 0 10%;
+    padding: 0 9%;
     justify-content: center;
     align-content: center;
 }
-  }
   
   article {
   padding: 40px 25px 0;
   }
   
   .reviews {
-  display:flex;
   justify-content:flex-start;
-  padding:0;
+  padding:0 9%;
   }
   
 .reviews-items {
@@ -357,30 +377,20 @@ html {
   width:100%;
   padding:0 0 15px;
   }
+
+  /* ---------- ABOUT PAGE STYLES ---------*/
   
   .mission-p,.about-contact {
   width:50%;
   }
+
+  /* ---------- FAQ PAGE STYLES ---------*/
   
   .faq {
-  display:flex;
-  justify-content:flex-start;
-  align-items:center;
-  flex-flow:row wrap;
   width:100%;
   }
   
-  .faq-1,.faq-2 {
-  display:flex;
-  justify-content:flex-start;
-  align-items:flex-start;
-  flex-flow:row wrap;
-  width:50%;
-  }
-
-  }
-  
-  @media screen and (min-width: 1000px) {
+  @media screen and (min-width: 1200px) {
   .content-wrapper {
   max-width:960px;
   }
@@ -388,6 +398,7 @@ html {
 /* Hero */
 .hero {
   justify-content: flex-start;
+  padding: 0 12%;
 }
 .hero h1 {
         width : 70%;
@@ -396,8 +407,12 @@ html {
     /* Aside */
     aside .content-wrapper {
       display: flex;
-      padding: 0 100px;
+      padding: 0 200px;
         justify-content: center;
+    }
+
+    aside {
+      padding: 0;
     }
  
     aside .content-wrapper .form-description,
@@ -406,8 +421,10 @@ html {
     }
  
     /* Features */
+
     .features h2 {
         width: 100%;
+        padding: 0 12%;
     }
  
     .features article {
@@ -415,6 +432,10 @@ html {
     }
  
     /* Reviews */ 
+
+    .reviews {
+      padding: 0 12%;
+    }
     .reviews article div {
         width: 100%;
     }
@@ -439,9 +460,7 @@ html {
    FAQ Page
    ========================================================================== */
    .faq {
-    display:flex;
     align-items:flex-start;
-    flex-flow:row wrap;
     padding: 80px 0 50px 100px;
     }
 
