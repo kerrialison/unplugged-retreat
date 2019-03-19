@@ -50,7 +50,7 @@ html {
      /*********  BASE STYLES ***********/
   .content-wrapper {
   max-width:400px;
-  margin: 0 auto;
+  
   }
   
   h1 {
@@ -399,13 +399,25 @@ html {
   max-width:960px;
   }
 
+h1 {
+  font-size: 3.75em;
+}
+
+h2 {
+  font-size: 2.25em;
+}
+
+h3 {
+  font-size: 1.875em;
+}
 /* Hero */
 .hero {
   justify-content: flex-start;
   padding: 0 12%;
 }
-.hero h1 {
+.hero {
         width : 70%;
+        
     }
  
     /* Aside */
@@ -426,13 +438,17 @@ html {
  
     /* Features */
 
-    .features h2 {
+    .features-h2 {
         width: 100%;
         padding: 0 12%;
     }
  
-    .features article {
-        flex-basis: 860px;
+.features-content {
+  padding: 0 9%;
+}
+    .features-content article {
+        flex-basis: 200pxpx;
+        padding: 0 60px;
     }
  
     /* Reviews */ 
