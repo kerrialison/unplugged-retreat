@@ -2,12 +2,6 @@ html {
   color:grey;
   font-size:16px;
   line-height:1.4;
-  border:1px solid #556B2F;
-  width:90%;
-  font-family:Poppins, sans-serif;
-  font-weight:300;
-  margin:0 auto;
-  padding:3%;
   }
   
   ::selection {
@@ -47,24 +41,69 @@ html {
   
   /* ============ Author's custom styles ============ */
   
-     /*********  BASE STYLES ***********/
-  .content-wrapper {
-  max-width:400px;
-  
-  }
-  
-  h1 {
-  font-size:2.25em;
-  }
+     /*********  GENERAL STYLES ***********/
 
-  h2 {
+html {
+  border:1px solid #556B2F;
+  width:90%;
+  font-family:Poppins, sans-serif;
+  font-weight:300;
+  margin:0 auto;
+  padding:3%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+} 
+
+ul, 
+ol {
+ 
+}
+ 
+a {
+	color: #e2e3ed;
+  text-decoration: none;
+}
+h1,
+h2,
+h3{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+h1 {
+  font-size:2.25em;
+}
+
+h2 {
     font-size: 1.875em;
-  }
+}
+
+h3{
+  font-size: 1.5em;
+}
   
   p {
   font-family:'Open Sans', sans-serif;
   }
-  
+
+  img {
+ 
+  }
+   
+  figure {
+   
+  }
+   
+  address {
+   
+  }
+  .content-wrapper {
+    max-width:400px;
+    
+    }
+    
   /* -------- Base Header - Footer Styles -------------------- */
   
   header,footer {
@@ -496,7 +535,8 @@ h3 {
     }
 
     .faq-items {
-      width: 50%;
+      flex-basis: 480px;
+      padding: 0;
     }
  }
   
