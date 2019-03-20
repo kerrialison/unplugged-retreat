@@ -110,6 +110,7 @@ h3{
   justify-content:center;
   align-items:center;
   flex-flow:row wrap;
+  background-color: #202322;
   }
   
   header {
@@ -150,6 +151,7 @@ h3{
   .footer-wrapper {
   width:55%;
   text-align:center;
+  background-color: #202322;
   }
   
   footer .social-icons {
@@ -169,7 +171,7 @@ h3{
   margin:0;
   }
   
-  /* -------------------- Mobile Styles - Homepage -------------------- */
+  /* -------------------- Mobile Styles - HOME PAGE -------------------- */
   
   /* Hero Area */
   
@@ -265,10 +267,6 @@ h3{
   justify-content:center;
   flex-flow:row wrap;
   }
-
-  .hero {
-    
-  }
   
   aside,.features .features-items,.mission,.contact-section,.faq,.faq-wrapper {
   display:flex;
@@ -280,16 +278,14 @@ h3{
   aside {
     background-color: #527158;
   }
-  
-  aside .form {
-    margin-top: 30px;
-  }
    
   input[type=text] {
     box-sizing: border-box;
     width: 100%;
     color: #2a423a;
     font-style: italic;
+    padding: 20px 0;
+    margin-top: 20px;
   }
    
   input[type=button] {
@@ -307,6 +303,17 @@ h3{
   }
   .about-contact {
   width:100%;
+  }
+
+  /* ---------------- ABOUT PAGE ---------------*/
+
+  .mission {
+    background-color: #527158;
+    width: 100%;
+  }
+
+  .mission-contact {
+    background-color: #2a423a;
   }
   
   @media screen and (min-width: 768px) {
@@ -368,10 +375,6 @@ h3{
   .hero {
     padding: 0 9%;
   }
-
-  .form {
-    padding: 60px 0;
-  }
   
   aside {
   padding:0 9%;
@@ -426,7 +429,9 @@ h3{
   padding: 40px 25px 0;
   }
   
-  .reviews {
+  .reviews-wrapper {
+  display: flex;
+  flex-flow: wrap;
   justify-content:flex-start;
   padding:0 9%;
   }
@@ -527,7 +532,8 @@ h3 {
     }
  
 .features-content {
-  padding: 0 9%;
+  flex: 1 1 210px;
+  padding: 3%;
 }
     .features-content article {
         flex-basis: 200pxpx;
