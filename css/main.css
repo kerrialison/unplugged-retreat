@@ -98,7 +98,7 @@ h3{
    
   }
   .content-wrapper {
-    max-width:400px;
+    max-width:100%;
     
     }
     
@@ -309,7 +309,7 @@ h3{
   /* ---------- BASE STYLES -------- */
   
   .content-wrapper {
-  max-width:640px;
+  max-width:100%;
   
   }
   
@@ -475,7 +475,7 @@ h3{
   
   @media screen and (min-width: 1200px) {
   .content-wrapper {
-  max-width:960px;
+  max-width:100%;
   }
 
 h1 {
