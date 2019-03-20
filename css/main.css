@@ -46,6 +46,7 @@ html {
 html {
   width: 100%;
   font-family:Poppins, sans-serif;
+  color: #e2e3ed;
   font-weight:300;
   margin:0 auto;
 }
@@ -68,7 +69,7 @@ h1,
 h2,
 h3{
   font-family: 'Poppins', sans-serif;
-  font-weight: 500;
+  font-weight: 300;
 }
 h1 {
   font-size:2.25em;
@@ -98,8 +99,8 @@ h3{
    
   }
   .content-wrapper {
-    max-width:100%;
-    
+    max-width:400px;
+    margin: 0 auto;
     }
     
   /* -------- Base Header - Footer Styles -------------------- */
@@ -196,6 +197,9 @@ h3{
   margin:0;
   }
 
+  .reviews {
+    background-color: #2a423a;
+  }
   .reviews h2 {
   width:100%;
   justify-content:flex-start;
@@ -309,7 +313,7 @@ h3{
   /* ---------- BASE STYLES -------- */
   
   .content-wrapper {
-  max-width:100%;
+  max-width:640px;
   
   }
   
@@ -475,7 +479,7 @@ h3{
   
   @media screen and (min-width: 1200px) {
   .content-wrapper {
-  max-width:100%;
+  max-width:960px;
   }
 
 h1 {
