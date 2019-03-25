@@ -139,7 +139,7 @@ h3{
   display:flex;
   justify-content:space-around;
   width:100%;
-  
+  padding: 0;
   }
 
   header nav ul li {
@@ -312,6 +312,13 @@ h3{
     width: 100%;
   }
 
+  .mission-content {
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+
   .mission-contact {
     background-color: #2a423a;
   }
@@ -355,9 +362,12 @@ h3{
   width:40%;
   }
   
+  header nav ul {
+    justify-content: flex-end;
+  }
   header nav ul li {
   font-size: 1em;
-  justify-content:flex-end;
+  padding: 0 20px 0 0;
   }
   
   .header-divider {
@@ -464,9 +474,17 @@ h3{
   }
 
   /* ---------- ABOUT PAGE STYLES ---------*/
-  
+  .mission {
+    display: flex;
+    flex-flow: wrap;
+justify-content:flex-start;
+padding:0;
+
+
+  }
   .mission-p,.about-contact {
-  width:50%;
+  width:45%;
+  padding: 0 5% 0 0;
   }
 
   /* ---------- FAQ PAGE STYLES ---------*/
@@ -553,9 +571,15 @@ h3 {
    About Page
    ========================================================================== */
    .mission {
-     padding: 100px 120px 50px;
+     display: flex;
+     flex-direction: row;
+     flex-flow: wrap;
    }
-    .mission h2,
+
+   .mission-header{
+    width: 100%;
+    padding: 0;
+   }
     .contact-section .content-wrapper h2 {
         width: 70%;
     }
