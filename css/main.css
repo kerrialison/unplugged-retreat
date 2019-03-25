@@ -176,8 +176,13 @@ h3{
   
   /* Hero Area */
 
-  .hero {
-    background-image: url("img/hero.jpg")
+  .hero  {
+    background-image: url('../img/hero.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+width: 100%;
+height: 400px;
   }
   
   aside .content-wrapper {
@@ -405,7 +410,7 @@ h3{
   }
 
   .hero {
-    padding: 0 9%;
+    height: 600px;
   }
   
   aside {
@@ -558,10 +563,6 @@ h3 {
   font-size: 1.875em;
 }
 /* Hero */
-.hero {
-  justify-content: flex-start;
-  padding: 0 12%;
-}
  
     /* Aside */
     aside .content-wrapper {
