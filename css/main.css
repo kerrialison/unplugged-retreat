@@ -239,7 +239,10 @@ height: 400px;
   padding: 3% 35%;
   }
   
- 
+  .features i {
+    font-size: 3.75em;
+    margin-bottom: 40px;
+  }
   
   .features p {
   margin:0;
@@ -529,6 +532,9 @@ height: 400px;
     padding: 0 12%;
   }
   
+  .features i{
+    font-size: 4.5em;
+  }
   .features-content article {
     width: 50%;
     text-align:center;
