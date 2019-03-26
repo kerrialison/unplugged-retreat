@@ -364,6 +364,7 @@ height: 400px;
   .mission {
     background-color: #527158;
     width: 100%;
+    padding: 45px 0;
   }
 
   .mission-content {
@@ -371,6 +372,7 @@ height: 400px;
     flex-flow: wrap;
     flex-direction: row;
     justify-content: center;
+    
   }
 
   .map-container {
@@ -390,6 +392,7 @@ height: 400px;
 
   .mission-contact {
     background-color: #2a423a;
+    padding: 45px 0;
   }
 
   /* ------------- FAQ PAGE ---------- */
@@ -463,7 +466,7 @@ height: 400px;
     align-content:flex-start;
     justify-content:center;
     width:100%;
-    padding:90px;
+    padding:70px 0;
     }
     
     .copyright {
@@ -591,6 +594,7 @@ padding:100px 0;
   .faq {
   width:100%;
   align-items: flex-start;
+  padding: 90px 0
   }
   .faq .content-wrapper {
     display: flex;
@@ -704,7 +708,7 @@ p, h5 {
    ========================================================================== */
    .faq {
     align-items:flex-start;
-    padding: 80px 0 50px 0;
+    padding: 90px 0;
     }
 
     .faq h3, .faq p {
