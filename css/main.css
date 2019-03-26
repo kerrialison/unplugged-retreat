@@ -67,7 +67,9 @@ a {
 }
 h1,
 h2,
-h3{
+h3,
+h4,
+h5{
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
 }
@@ -83,9 +85,19 @@ h3{
   font-size: 1.5em;
   margin: 0;
 }
+
+h4 {
+  font-size: 1.125em;
+}
+
+h5{
+  font-size: .875;
+}
   
   p {
   font-family:'Open Sans', sans-serif;
+  font-size: .875em;
+  font-weight: 200;
   }
 
   img {
@@ -247,12 +259,7 @@ height: 400px;
     background-position: center;
     width: 100%;
     height: 200px;
-    
-  }
-  .reviews h2 {
-  width:100%;
-  justify-content:flex-start;
-  }
+}
 
   .reviews-items {
     width:100%;
@@ -389,18 +396,6 @@ height: 400px;
   .faq {
     background-color: #527158;
   }
-
-  .faq h1{
-    font-size: 1.875em;
-  }
-
-  .faq h3 {
-    font-size: 1.125em
-  }
-
-  .faq p {
-    font-size: .875em;
-  }
   
   @media screen and (min-width: 767px) {
   /* ---------- BASE STYLES -------- */
@@ -419,7 +414,7 @@ height: 400px;
   }
   
   h3 {
-  font-size:1.5em;
+  font-size:2.25em;
   }
   /* ============ HEADER STYLES ============== */
   header {
@@ -567,10 +562,25 @@ height: 400px;
     display: flex;
     flex-flow: wrap;
 justify-content:flex-start;
-padding:0;
+padding:100px 0;
+}
 
+.mission-contact {
+  padding: 100px 0;
+}
 
-  }
+.map-container {
+  padding-bottom: 80%;
+
+}
+
+.map-container iframe {
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+}
   .mission-p,.about-contact {
   width:45%;
   padding: 0 5% 0 0;
@@ -582,21 +592,6 @@ padding:0;
   width:100%;
   align-items: flex-start;
   }
-
-  .faq h1 {
-    font-size: 2.25em;
-  }
-
-  .faq h3 {
-    font-size: .875em;
-    font-weight: 500;
-  }
-
-  .faq p {
-    font-size: .875em;
-    font-weight: 300;
-  }
-
   .faq .content-wrapper {
     display: flex;
     align-content: flex-start;
@@ -621,11 +616,19 @@ h1 {
 }
 
 h2 {
-  font-size: 2.25em;
+  font-size: 3em;
 }
 
 h3 {
+  font-size: 2.25em;
+}
+
+h4 {
   font-size: 1.875em;
+}
+
+p, h5 {
+  font-size: 1.125em;
 }
 /* Hero */
  
@@ -651,16 +654,12 @@ h3 {
       display: flex;
       flex-flow: wrap;
       justify-content: flex-start;
-      padding: 0;
+      padding: 100px 0 0 0;
     }
 
 .features-content {
   flex: 1 1 210px;
   padding: 0 0 90px 0;
-}
-
-.features-h2 {
-  padding: 100px 0 0 0;
 }
     .features-content article {
         flex-basis: 200pxpx;
@@ -685,11 +684,11 @@ h3 {
      display: flex;
      flex-direction: row;
      flex-flow: wrap;
+     padding: 100px 0;
    }
 
-   .mission-header{
-    width: 100%;
-    padding: 0;
+   .mission-contact {
+     padding: 100px 0;
    }
     .contact-section .content-wrapper h2 {
         width: 70%;
@@ -705,24 +704,12 @@ h3 {
    ========================================================================== */
    .faq {
     align-items:flex-start;
-    padding: 80px 0 50px 100px;
+    padding: 80px 0 50px 0;
     }
 
-    .faq h1 {
-      font-size: 3em;
-    }
-    .faq h3 {
-      font-size: 1.125em;
-      font-weight: 500;
-    }
     .faq h3, .faq p {
       width: 50%;
     }
-
-    .faq p {
-      font-size: 1.125em;
-    }
-
     .faq-items {
       flex-basis: 480px;
       padding: 0;
