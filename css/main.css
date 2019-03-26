@@ -376,10 +376,11 @@ height: 400px;
   }
 
   .map-container {
-    position: relative;
-    padding-bottom: 75%;
-    height: 0;
-    overflow: hidden;
+    position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%; 
   }
   
   .map-container iframe {
@@ -573,21 +574,14 @@ padding:100px 0;
 }
 
 .map-container {
-  padding-bottom: 80%;
+  padding-bottom: 45.5%;
 
 }
 
-.map-container iframe {
-  position: absolute;
-  top:0;
-  left:0;
-  width: 100%;
-  height: 100%;
-}
   .mission-p,.about-contact {
   width:45%;
   padding: 0 5% 0 0;
-  }
+  }*/
 
   /* ---------- FAQ PAGE STYLES ---------*/
   
@@ -684,6 +678,11 @@ p, h5 {
 /* ==========================================================================
    About Page
    ========================================================================== */
+
+   .map-container {
+    padding-bottom: 37.5%;
+  }
+
    .mission {
      display: flex;
      flex-direction: row;
