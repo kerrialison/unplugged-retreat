@@ -409,8 +409,12 @@ height: 400px;
   }
 
   /* ------------- FAQ PAGE ---------- */
-  .faq {
+  .main-content {
     background-color: #527158;
+  }
+
+  .faq h2 {
+    width: 100%;
   }
   
   @media screen and (min-width: 768px) {
@@ -594,6 +598,9 @@ padding:100px 0;
   }*/
 
   /* ---------- FAQ PAGE STYLES ---------*/
+  .main-content {
+    max-width: 100%;
+  }
   
   .faq {
   width:100%;
@@ -604,6 +611,7 @@ padding:100px 0;
     display: flex;
     align-content: flex-start;
     flex-flow: row wrap;
+    justify-content: space-between;
   }
 
   .faq-items {
@@ -718,9 +726,17 @@ header .content-wrapper {
 /* ==========================================================================
    FAQ Page
    ========================================================================== */
+   .main-content {
+    max-width: 100%;
+  }
+  
    .faq {
     align-items:flex-start;
     padding: 90px 0;
+    }
+
+    .faq, .content-wrapper {
+      width: 90%;
     }
 
     .faq h3, .faq p {
