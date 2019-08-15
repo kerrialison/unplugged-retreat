@@ -434,13 +434,25 @@ footer,.form {
 }
 
   /* ------------- FAQ PAGE ---------- */
-  .main-content {
-    background-color: #527158;
-  }
+.main-content {
+  background-color: #527158;
+}
 
-  .faq h2 {
-    width: 100%;
-  }
+.faq {
+  padding: 40px 0;
+}
+
+.faq h2 {
+  width: 100%;
+}
+
+.faq-items {
+  max-width: 400px;
+}
+
+.faq-items h5 {
+  font-size: 1.5em;
+}
 
 /* ============ MEDIA QUERY 768PX ============== */
   
@@ -458,7 +470,7 @@ footer,.form {
   h3 {
   font-size:2.25em;
   }
-  /* ============ HEADER STYLES ============== */
+  /* -------------- HEADER STYLES ---------------*/
   
 .logo {
   width:30%;
@@ -481,7 +493,7 @@ header nav ul li {
 .header-divider {
   display:none;
 }
-/* ================= FOOTER STYLES ===============*/
+/* --------------FOOTER STYLES --------------*/
 .footer-wrapper {
   display: flex;
 }
@@ -592,33 +604,26 @@ article {
 
 }
 
-  .mission-p,.about-contact {
+.mission-p,.about-contact {
   width:45%;
   padding: 0 5% 0 0;
-  }*/
+}
 
   /* ---------- FAQ PAGE STYLES ---------*/
-  .main-content {
-    max-width: 100%;
-  }
+.main-content {
+  max-width: 100%;
+}
   
-  .faq {
-  width:100%;
-  align-items: flex-start;
-  padding: 90px 0
-  }
-  .faq .content-wrapper {
-    display: flex;
-    align-content: flex-start;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    padding: 0;
-  }
-
-  .faq-items {
-    width: 48%;
-    padding: 0 10px 0 0;
-  }
+.faq .content-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+}
+.faq-items {
+  width: 48%;
+  flex-basis: 350px;
+}
 
 /* ================== MEDIA QUERY 1200PX ========== */
 
@@ -651,9 +656,9 @@ h4 {
   width:40%;
 }
  
-/* ==========================================================================
+/* =======================================
    About Page
-   ========================================================================== */
+   ======================================= */
 
    .map-container {
     padding-bottom: 37.5%;
@@ -678,30 +683,21 @@ h4 {
     }
  
  
-/* ==========================================================================
+/* =======================================
    FAQ Page
-   ========================================================================== */
-   .main-content {
-    max-width: 100%;
-  }
-  
-   .faq {
-    align-items:flex-start;
-    padding: 90px 0;
-    }
+   ===================================== */
 
-    .faq, .content-wrapper {
-      width: 90%;
-    }
+.faq p {
+  width: 75%;
+}
 
-    .faq h3, .faq p {
-      width: 50%;
-    }
-    .faq-items {
-      flex-basis: 480px;
-      padding: 0;
-    }
+.faq-items {
+  flex-basis: 280px;
+  padding: 0;
+}
   
+/* ================= END 1200PX MEDIA QUERY ============= */
+
   @media print{
   *,:before,:after {
   background:transparent!important;
