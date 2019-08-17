@@ -660,28 +660,28 @@ h4 {
    About Page
    ======================================= */
 
-   .map-container {
-    padding-bottom: 37.5%;
-  }
+.map-container {
+  padding-bottom: 37.5%;
+}
 
-   .mission {
-     display: flex;
-     flex-direction: row;
-     flex-flow: wrap;
-     padding: 100px 0;
-   }
+.mission {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  padding: 100px 0;
+}
 
-   .mission-contact {
-     padding: 100px 0;
-   }
-    .contact-section .content-wrapper h2 {
-        width: 70%;
-    }
- 
-    .contact-section .content-wrapper h2 {
-        margin-bottom: 0;
-    }
- 
+.mission-contact {
+  padding: 100px 0;
+}
+
+.contact-section .content-wrapper h2 {
+  width: 70%;
+}
+
+.contact-section .content-wrapper h2 {
+  margin-bottom: 0;
+}
  
 /* =======================================
    FAQ Page
