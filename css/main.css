@@ -259,18 +259,8 @@ footer p {
 }
 
 /* ---------- Aside -------- */
-
-.btn {
-  background-color: #2a423a;
-  border: none;
-  color: #fff;
-  font-weight: 700;
-  text-transform: uppercase;
-  line-height: 2.5;
-  text-align: center;
-  height: 2.5em;
-  width: 100%;
-  display: block;
+aside{
+  background: #527158;
 }
 
 aside, .features, .features-items,.mission,.contact-section,.faq,.faq-wrapper {
@@ -292,12 +282,63 @@ aside .content-wrapper {
   padding: 20px;
 }
 
-.newsletter-info p {
+.newsletter-info p{
+  font-size: 1.5em;
   max-width: 325px;
 }
 
-.newsletter-form {
-  padding: 15px 0 0 0;
+.form{
+  position: relative;
+  z-index: 1;
+  background: #2a423a;
+  max-width: 360px;
+  margin: 0;
+  padding: 0 40px;
+  text-align: center;
+}
+
+.form input{
+  font-family: "Roboto", sans-serif;
+  outline: 1;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.form button{
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #527158;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.form button:hover, .form button:active{
+  background: #43A047;
+}
+
+.form .message{
+  margin: 15px 0 0;
+  color: aliceblue;
+  font-size: 12px; 
+}
+
+.form .message a{
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.form .cta{
+  display: none
 }
    
 form {
@@ -326,6 +367,8 @@ input[type=button] {
   text-align: center;
   text-transform: uppercase;
 }
+
+
 
 /* --------------- Features --------*/
 .features {
@@ -364,6 +407,7 @@ input[type=button] {
 
 .reviews {
   background-color: #2a423a;
+  padding: 5% 0 0 0;
 }
 
 .reviews-wrapper {
@@ -379,7 +423,7 @@ input[type=button] {
   width:100%;
   height:auto;
   margin:0;
-  padding: 20px 0 0 0;
+  padding: 5%;
 }
   
 footer,.form {
@@ -394,40 +438,37 @@ footer,.form {
   
 /* ---------------- ABOUT PAGE ---------------*/
 
-  .mission {
-    background-color: #527158;
-    width: 100%;
-    padding: 45px 0;
-  }
-
-  .mission-content {
-    display: flex;
-    flex-flow: wrap;
-    flex-direction: row;
-    justify-content: center;
-    
-  }
-
-  .map-container {
-    position: relative; 
-    padding-bottom: 56.25%; 
-    height: 0; 
-    overflow: hidden; 
-    max-width: 100%; 
-  }
+.mission {
+  background-color: #527158;
+  width: 100%;
+  padding: 45px 0;
+}
+.mission-content {
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  justify-content: center;
   
-  .map-container iframe {
-    position: absolute;
-    top:0;
-    left:0;
-    width: 100%;
-    height: 100%;
-  }
-
-  .mission-contact {
-    background-color: #2a423a;
-    padding: 45px 0;
-  }
+}
+.map-container {
+  position: relative; 
+  padding-bottom: 56.25%; 
+  height: 0; 
+  overflow: hidden; 
+  max-width: 100%; 
+}
+  
+.map-container iframe {
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+}
+.mission-contact {
+  background-color: #2a423a;
+  padding: 45px 0;
+}
 
 .about-contact {
     width:100%;
@@ -527,13 +568,13 @@ header nav ul li {
 aside .content-wrapper {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding:20px;
   max-width: 90%;
   text-align: left;
 }
 
-.newsletter-info, .newsletter-form {
+.newsletter-info {
   width:45%;
   display:flex;
   flex-direction:column;
@@ -541,11 +582,6 @@ aside .content-wrapper {
   float: left;
 }
 
-.newsletter-form{
-  padding: 0 0 0 3%;
-}
-  
-.newsletter-form h2,
 .newsletter-info h2 {
   font-size: 1.5em;
 }
@@ -578,12 +614,12 @@ article {
 /* --------- Reviews ----------- */
 .reviews-img {
   width: 45%;
-  padding: 30px 30px 30px 0;
+  padding: 70px 30px 70px 0px;
   float: left;
 }
   
 .reviews-items {
-  width:45%;
+  width:40%;
   float: left;
 }
 
@@ -592,7 +628,7 @@ article {
   display: flex;
   flex-flow: wrap;
   justify-content:flex-start;
-  padding:100px 0;
+  padding:70px 0;
 }
 
 .mission-contact {
@@ -605,8 +641,9 @@ article {
 }
 
 .mission-p,.about-contact {
-  width:45%;
-  padding: 0 5% 0 0;
+  width:40%;
+  padding: 0 5%;
+  justify-content: space-evenly;
 }
 
   /* ---------- FAQ PAGE STYLES ---------*/
@@ -652,7 +689,7 @@ h4 {
     padding: 3% 60px;
 }
 /* ---------------- Aside ------------------- */
-.newsletter-info, .newsletter-form {
+.newsletter-info{
   width:40%;
 }
  
@@ -682,6 +719,7 @@ h4 {
 .contact-section .content-wrapper h2 {
   margin-bottom: 0;
 }
+ 
  
 /* =======================================
    FAQ Page
